@@ -18,13 +18,3 @@ class Stack():
     def get_stack(self):
         return self.items
 
-
-a = Stack()
-
-a.push("A")
-a.push("B")
-a.push("C")
-print(a.pop())
-print(a.is_empty())
-print(a.peek())
-print(a.get_stack())
